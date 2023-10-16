@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    top: 0px;
+    left: 0px;
+    height: 450px;
+    width: 100%;
+}
+
+article {
+    width: 450px;
+    height: 450px;
+    background: #1A1A1AD4 0% 0% no-repeat padding-box;
+    position: absolute;
+}
+
+.box {
+
+    top: 140px;
+    left: 800px;
+
+
+}
+
+
+
+h2 {
+
+    margin-top: 55px;
+    margin-left: -40px;
+    width: 450px;
+    height: 53px;
+
+    text-align: right;
+    font: normal normal 900 36px/53px Heebo;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+p {
+
+    margin-top: 10px;
+    left: 1150px;
+    width: 400px;
+    height: 58px;
+
+    text-align: right;
+    font: normal normal 300 19px/25px Heebo;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+}
+
+.user-box {
+
+    margin-top: 25px;
+    height: 35px;
+    margin-right: 50px;
+    color: #FFFFFF;
+    text-align: right;
+    font: normal normal bold 16px/24px Heebo;
+
+}
+
+
+
+input {
+    top: 450px;
+    margin-left: -90px;
+    width: 350px;
+    height: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #D31C75;
+    opacity: 1;
+}
+
+.btn {
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 240px;
+    width: 160px;
+    height: 45px;
+    background: #D31C75;
+    border: 0;
+    font-size: 20px;
+
+}
+
+@media (max-width: 576px) {
+    img {
+        margin-left: -150px;
+        width: 726px;
+        height: 213px;
+    }
+
+    article {
+        width: 420px;
+    }
+
+    .box {
+        margin-top: -50px;
+        height: 450px;
+        margin-left: -700px;
+    }
+
+    h2 {
+        margin-top: 20px;
+        margin-left: 100px;
+        width: 200px;
+        height: 20px;
+        text-align: center;
+    }
+
+    p {
+        margin-top: 90px;
+        margin-left: 60px;
+        width: 300px;
+        height: 66px;
+        text-align: center;
+    }
+
+    .user-box {
+        top: 299px;
+        margin-left: 80px;
+        width: 300px;
+        height: 50px;
+        text-align: right;
+    }
+
+    input {
+        top: 322px;
+        width: 350px;
+        height: 28px;
+    }
+
+    .btn {
+        margin-top: 0px;
+        margin-left: 295px;
+        width: 85px;
+        height: 40px;
+    }
+}

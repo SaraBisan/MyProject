@@ -1,0 +1,242 @@
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.flex-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.background {
+    direction: rtl;
+    width: 100vw;
+    position: fixed;
+    height: 80px;
+    top: 0;
+}
+
+/*header*/
+nav,
+.hamburger {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 80px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.hamburger {
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+
+    li {
+        margin-right: 20px;
+        width: 150px;
+        height: 70px;
+        display: block;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000;
+        line-height: 3;
+        font-size: $textSize;
+    }
+
+    a:hover {
+        font-weight: bolder;
+    }
+}
+
+nav,
+.logo {
+    direction: ltr;
+    font-size: $textSize;
+    color: $text-color;
+    margin-top: 0;
+
+    .logo:hover {
+        font-weight: bolder;
+    }
+
+}
+
+.bgimage {
+    width: 100vw;
+    height: 460px;
+    background-image: $backgroundImg;
+}
+
+/*text image  header*/
+.text-header {
+    width: 100vw;
+    height: 460px;
+
+    h1 {
+        font-family: $baseFont;
+        font-size: 5em;
+        letter-spacing: 0px;
+        color: #3A3A3A;
+        opacity: 1;
+    }
+
+    p {
+        font-family: $baseFont;
+        font-size: 1.25em;
+        text-align: center;
+        color: #3A3A3A;
+        opacity: 1;
+    }
+
+}
+
+/*two button for viewing and download project*/
+.btn1 a,
+.btn2 a {
+    display: block;
+    background-color: #fafdfd63;
+    border-radius: 15px;
+    width: 153px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Heebo;
+    color: #3A3A3A;
+}
+
+.btn1,
+.btn2 {
+    margin-left: 1em;
+    margin-top: 2em;
+}
+
+/*icon header*/
+.container {
+    width: 100vw;
+    height: auto;
+    background-color: #fff;
+
+    .icon {
+        width: 100vw;
+        height: auto;
+        margin-left: 0em;
+        box-shadow: 0px 3px 6px #00000029;
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+}
+
+.project {
+    width: 100vw;
+    height: auto;
+    background-color: #EBFEFF;
+
+
+    img {
+        width: 1200px;
+        height: 718px;
+        margin-top: 15.66vh;
+        margin-bottom: 25.17vh;
+    }
+}
+
+.line {
+    width: 100vw;
+    height: 30px;
+    position: fixed;
+    background-color: #000;
+    bottom: 0;
+
+    .all {
+        position: fixed;
+        text-align: right;
+        margin-top: 5px;
+        right: 10px;
+        color: #fff;
+    }
+
+    .name {
+        position: fixed;
+        margin-top: 5px;
+        left: 10px;
+        text-align: left;
+        color: #fff;
+    }
+}
+
+@media (max-width:576px) {
+
+    /*hamburger header*/
+    .hamburger {
+        width: 100%;
+        display: block;
+        border-bottom: 1px solid #000;
+    }
+
+    nav ul {
+        font-size: 12px;
+        width: 100%;
+        flex-direction: row;
+
+        li {
+            width: 100%;
+        }
+
+        a {
+            width: 100%;
+            border-bottom: 1px solid #000;
+            text-align: center;
+        }
+
+    }
+
+    nav,
+    .hamburger {
+        +ul {
+            display: none;
+        }
+
+
+        :hover+ul {
+            display: block;
+        }
+
+    }
+
+    /*project image */
+
+    .project {
+
+        img {
+            width: 490px;
+            height: 650px;
+
+        }
+    }
+
+
+}

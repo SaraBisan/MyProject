@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    width: 1392px;
+    height: 400px;
+    background-color: #0EE1E1;
+}
+
+.box1 .bi {
+    margin-left: 100px;
+    box-shadow: 0px 3px 6px #00000029;
+
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 100%;
+
+}
+
+.box1 img {
+    margin-top: 60px;
+    margin-left: 950px;
+    width: 200px;
+    height: 200px;
+}
+
+.box1 h1 {
+    margin-top: -200px;
+    text-align: center;
+    font: normal normal 900 66px/97px Heebo;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.box1 p {
+    margin-left: 150px;
+    width: 750px;
+    text-align: right;
+    font: normal normal normal 20px/29px Heebo;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.box2 {
+    margin-left: 25px;
+    width: 1300px;
+    height: 400px;
+}
+
+.row {
+    text-align: center;
+}
+
+.card {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+
+.card-body {
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+}
+
+
+.bi {
+    font-size: 2em;
+}
+
+.card-title {
+    margin-top: 20px;
+    text-align: center;
+    font: normal normal 900 30px/44px Heebo;
+    letter-spacing: 0px;
+
+}
+
+.card-text {
+    text-align: center;
+    color: #000;
+    font: normal normal normal 15px/22px Heebo;
+    letter-spacing: 0px;
+}
+
+.title {
+    margin-top: 50px;
+    color: #000;
+    font: normal normal 900 46px/67px Heebo;
+    letter-spacing: 0px;
+    text-align: right;
+    margin-right: 80px;
+}
+
+.text {
+    width: 400px;
+    margin-left: 90px;
+    text-align: right;
+    font: normal normal normal 15px/22px Heebo;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.form {
+    margin-left: 80px;
+}
+
+.mb-3 {
+    width: 400px;
+    text-align: right;
+
+}
+
+.mb-3 input {
+    background-color: #E5EEFF;
+    border-bottom: 0.5em solid #0EE1E1;
+    border-radius: 0;
+}
+
+.imgMap {
+    margin-top: 40px;
+    width: 650px;
+    height: 500px;
+}
+
+.form .btn {
+    font: normal normal bold 20px/28px Heebo;
+    margin-left: -96px;
+    width: 402px;
+    text-align: center;
+    color: #000000;
+    background-color: #0EE1E1;
+    border-radius: 0;
+    border: 0;
+}
+
+.box4 {
+    height: 150px;
+    border-bottom: 1em solid #0EE1E1;
+}
+
+.icon .bi {
+    margin-left: 60px;
+    box-shadow: 0px 3px 6px #00000029;
+    line-height: 4;
+    padding: 15px;
+    background-color: #0EE1E1;
+    border-radius: 100%;
+
+}
+
+@media (max-width: 576px) {
+    .box1 {
+        width: 576px;
+        height: 390px;
+    }
+
+    .box1 .bi {
+        display: none;
+    }
+
+    .box1 img {
+        margin-top: 0;
+        margin-left: 380px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .box1 h1 {
+        margin-top: 50px;
+        line-height: 0;
+    }
+
+    .box1 p {
+        width: 350px;
+        margin-left: 120px;
+        margin-top: 50px;
+    }
+
+    .box2 {
+        width: 576px;
+        margin-left: 130px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box3 {
+        margin-top: 750px;
+        width: 576px;
+    }
+
+    .imgMap {
+        width: 30em;
+    }
+
+}

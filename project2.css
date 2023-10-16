@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    top: 0px;
+    left: 0px;
+    width: 1000px;
+    height: 554px;
+    background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+}
+
+.title {
+    margin-top: 100px;
+    margin-left: 350px;
+    width: 755px;
+    height: 204px;
+
+    text-align: left;
+    font: normal normal normal 160px/231px Satisfy;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 36px #00000087;
+    opacity: 1;
+}
+
+.text1 {
+    top: 551px;
+    margin-left: 400px;
+    width: 550px;
+    height: 38px;
+    text-align: center;
+    font: normal normal normal 30px/35px Varela Round;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.text2 {
+    margin-top: 10px;
+    margin-left: 200px;
+    width: 1028px;
+    height: 70px;
+    text-align: center;
+    font: normal normal normal 16px/20px Varela Round;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+}
+
+.box-form {
+    width: 1200px;
+    text-align: right;
+    margin-left: 0px;
+    color: #FFFFFF;
+}
+
+.col input {
+    background: #F6F6F624 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 0;
+    opacity: 1;
+}
+
+.btn {
+    width: 150px;
+    margin-top: 25px;
+}
+
+.col button {
+    background-color: #FFFFFF;
+    color: #000;
+    border-radius: 0;
+    border: 0;
+    padding: 8px;
+
+}
+
+
+@media (max-width: 576px) {
+    body {
+        width: 576px;
+        height: 652px;
+
+    }
+
+    .title {
+        margin-top: 5px;
+        margin-left: -80px;
+        font-size: 80px;
+        height: 120px;
+        text-align: center;
+        font: normal normal normal 20px/20px
+    }
+
+    .text1 {
+        margin-top: 40px;
+        margin-left: 120px;
+        width: 350px;
+        height: 22px;
+        font-size: 20px;
+    }
+
+    .text2 {
+        margin-top: 30px;
+        margin-left: 120px;
+        width: 318px;
+        font-size: 18px;
+    }
+
+    .box-form {
+        width: 450px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .col {
+        line-height: 4;
+        margin-left: 80px;
+    }
+
+    .btn {
+        width: 425px;
+    }
+
+    .col button {
+        color: #2823FD;
+    }
+
+}

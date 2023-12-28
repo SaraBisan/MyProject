@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#board {
+    border-radius: 5%;
+    background-color: #000;
+    border-top: 5px solid rgb(214, 20, 156);
+    border-bottom: 5px solid rgb(214, 20, 156);
+
+}

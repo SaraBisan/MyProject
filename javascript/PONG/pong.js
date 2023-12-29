@@ -1,6 +1,7 @@
 const resetBtn = document.querySelector(".reset");
 
 
+
 //board
 let board;
 let boardWidth = 500;
@@ -46,7 +47,7 @@ let player1Score = 0;
 let player2Score = 0;
 
 
-//resetBtn.addEventListener("click", resetGame);
+
 
 
 window.onload = function () {
@@ -174,5 +175,5 @@ function resrtGame(direction) {
     }
 }
 
-//reset game 
+
 

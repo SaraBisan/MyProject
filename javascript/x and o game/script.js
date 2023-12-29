@@ -11,7 +11,11 @@ let count = 0;
 //add event listener
 resetBtn.addEventListener("click", resetGame);
 
-
+function startGame() {
+    cells.forEach(cell => {
+        cell.addEventListener("click", executeGame, { once: true });
+    })
+}
 
 
 
@@ -58,6 +62,7 @@ function resetGame() {
     startGame();
     player1 = true;
     count = 0;
+
 
 }
 
